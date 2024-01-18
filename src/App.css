@@ -1,0 +1,115 @@
+:root {
+  --themeColor-color: #432711; 
+}
+
+.b{
+  border: 1px solid red;
+}
+.background{
+  background-image: url(imges/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.heading-color{
+  color: var(--themeColor-color);
+}
+.brown-border{
+  border-bottom: 1px solid var(--themeColor-color) ;
+}
+.line-h{
+  line-height: 0.9rem;
+}
+.card-text-size{
+    font-size: small;
+}
+.body-color{
+  background-color: #94623c
+}
+.bg-color{
+  background-color: var(--themeColor-color);
+}
+.custom-border{
+border:1px solid var(--themeColor-color);
+}
+.custom-border-radius{
+  border-radius:10px;
+}
+.custom-text-clr{
+  color:  var(--themeColor-color);
+}
+
+.plus-btn{
+  width: 40px;
+}
+.custom-card {
+  width: 100%;
+  border: none;
+  position: relative; 
+  background-color: #f8f9fa; 
+}
+
+.custom-card .card-body {
+  padding: 1rem;
+}
+
+.custom-card .card-title,
+.custom-card .card-text {
+  margin-left: 2.5rem; 
+}
+
+.btn-custom {
+  position: absolute;
+  top: 1rem; 
+  left: 1rem; 
+  color: #343a40;
+  border-color: #343a40; 
+}
+
+
+.custom-card img {
+  object-fit: cover;
+  height: 100%;
+}
+.icon-size{
+  font-size: 2rem;
+}
+.max-width{
+  max-width: 425px;
+}
+.height-full{
+  height: 50vh;
+}
+
+
+.custom-outline:focus {
+  border-color:var(--themeColor-color);
+  box-shadow:var(--themeColor-color); 
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+
+#lblCartCount {
+    font-size: 12px;
+    background:var(--themeColor-color);
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+.custom-mb{
+  margin-bottom: 80px;
+}
